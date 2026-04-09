@@ -397,18 +397,14 @@ panel {
     win.sidebery_browser.addEventListener("DOMWindowClose", (event) => {
       event.stopPropagation();
     });
-    gZenUIManager.showToast("drac's sidebery mod loaded!");
-    alert(
-      "Sidebery Mod Complete!\nShowing side-by-side-preview.\nClick OK to remove original tabs.",
-    );
     console.log("6. Sidebery mod complete. Hiding original Zen Tabs...");
     oldTabsContainer = win.document.querySelector(
       "#TabsToolbar-customization-target",
     );
     // Zen's bars are right next to Sidebery's, looks ugly with both - hide Zen's for now, buttons can be moved elsewhere
     //win.document.getElementById("zen-sidebar-bottom-buttons").style.display = "none";
-    win.document.getElementById("zen-sidebar-top-buttons").style.display =
-      "none";
+    // win.document.getElementById("zen-sidebar-top-buttons").style.display =
+    //   "none";
     oldTabsContainer.style.display = "none";
   }
 
