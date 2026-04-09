@@ -3,7 +3,7 @@
   "homepage": "https://github.com/drac-dot-gay/sine-sidebery",
   "author": "drac",
   "name": "drac's sidebery mod",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "script.uc.js": {
       "name": "Core script"
