@@ -1,3 +1,7 @@
+// ==UserScript==
+// @name           sine-sideberry.uc.js
+// ==/UserScript==
+
 const { ExtensionUtils } = ChromeUtils.importESModule(
   "resource://gre/modules/ExtensionUtils.sys.mjs",
 );
