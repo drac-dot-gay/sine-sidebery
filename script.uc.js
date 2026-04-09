@@ -397,9 +397,7 @@ panel {
     win.sidebery_browser.addEventListener("DOMWindowClose", (event) => {
       event.stopPropagation();
     });
-    alert(
-      "Sidebery Mod Complete!\nShowing side-by-side-preview.\nClick OK to remove original tabs.",
-    );
+    gZenUIManager.showToast("drac's sidebery mod loaded!");
     console.log("6. Sidebery mod complete. Hiding original Zen Tabs...");
     oldTabsContainer = win.document.querySelector(
       "#TabsToolbar-customization-target",
