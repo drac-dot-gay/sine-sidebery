@@ -8,6 +8,8 @@ let sidebery_policy;
 let sidebery_url;
 let sidebery_extension;
 
+console.log("i loaded!");
+
 // Fetch first extension matching the name if any
 sidebery_policy = WebExtensionPolicy.getActiveExtensions().filter(
   (ext) => ext.name == "Sidebery",
