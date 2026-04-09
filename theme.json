@@ -1,0 +1,10 @@
+{
+  "id": "sine-sidebery",
+  "homepage": "https://drac.gay",
+  "author": "drac",
+  "scripts": {
+    "script.mjs": {
+      "name": "Core script"
+    }
+  }
+}
