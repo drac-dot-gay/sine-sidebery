@@ -398,6 +398,9 @@ panel {
       event.stopPropagation();
     });
     gZenUIManager.showToast("drac's sidebery mod loaded!");
+    alert(
+      "Sidebery Mod Complete!\nShowing side-by-side-preview.\nClick OK to remove original tabs.",
+    );
     console.log("6. Sidebery mod complete. Hiding original Zen Tabs...");
     oldTabsContainer = win.document.querySelector(
       "#TabsToolbar-customization-target",
