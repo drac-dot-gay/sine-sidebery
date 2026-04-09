@@ -5,7 +5,7 @@
   "name": "drac's sidebery mod",
   "version": "0.0.0",
   "scripts": {
-    "script.mjs": {
+    "script.uc.js": {
       "name": "Core script"
     }
   },
